@@ -9,8 +9,8 @@
     <link rel="icon" type="image/png" href="{{asset('images/icons/favicon.ico')}}" />
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}">
-<!--===============================================================================================-->
-	<link rel=" stylesheet" type="text/css" href="{{asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+    <!--===============================================================================================-->
+    <link rel=" stylesheet" type="text/css" href="{{asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{asset('fonts/iconic/css/material-design-iconic-font.min.css')}}">
     <!--===============================================================================================-->
@@ -24,10 +24,9 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{asset('vendor/daterangepicker/daterangepicker.css')}}">
     <!--===============================================================================================-->
-    @yield('css')
     <link rel="stylesheet" type="text/css" href="{{asset('css/util.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
-    <!--===============================================================================================-->
+    @yield('css')
 </head>
 
 <body>
