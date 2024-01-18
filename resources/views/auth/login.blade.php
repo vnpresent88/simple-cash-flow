@@ -20,8 +20,8 @@ Login | Cash Flow
                 </span>
                 @csrf
                 <div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
-                    <input class="input100" type="text" name="user-e" autocomplete="off">
-                    <span class="focus-input100" data-placeholder="User Email"></span>
+                    <input class="input100" type="text" name="phone" autocomplete="off">
+                    <span class="focus-input100" data-placeholder="Số điện thoại"></span>
                 </div>
 
                 <div class="wrap-input100 validate-input" data-validate="Enter password">
@@ -29,25 +29,25 @@ Login | Cash Flow
                         <i class="zmdi zmdi-eye"></i>
                     </span>
                     <input class="input100" type="password" name="user-p" autocomplete="off">
-                    <span class="focus-input100" data-placeholder="User Password"></span>
+                    <span class="focus-input100" data-placeholder="Mật khẩu"></span>
                 </div>
 
                 <div class="container-login100-form-btn">
                     <div class="wrap-login100-form-btn">
                         <div class="login100-form-bgbtn"></div>
                         <button class="login100-form-btn">
-                            Login
+                            Đăng nhập
                         </button>
                     </div>
                 </div>
 
                 <div class="text-center p-t-115">
                     <span class="txt1">
-                        Don’t have an account?
+                        Không có tài khoản?
                     </span>
 
                     <a class="txt2" href="{{ route('register') }}">
-                        Sign Up
+                        Đăng ký
                     </a>
                 </div>
             </form>

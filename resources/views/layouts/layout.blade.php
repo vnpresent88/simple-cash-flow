@@ -48,6 +48,13 @@
     <script src="{{asset('vendor/countdowntime/countdowntime.js')}}"></script>
     <!--===============================================================================================-->
     @yield('js')
+    <script>
+        @if (!empty($errors->all()))
+            @foreach ($errors->all() as $error)
+                toastr.error("{{$error}}")
+            @endforeach
+        @endif
+    </script>
 </body>
 
 </html>
